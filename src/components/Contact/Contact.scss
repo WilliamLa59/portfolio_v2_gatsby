@@ -1,0 +1,18 @@
+@import '../../shared/Global.scss';
+
+#contact{
+    width: $content-wth;
+    margin: auto;
+    .contact-content{
+        width: 50%;
+        margin: 6rem auto;
+        text-align: center;
+
+    }
+}
+
+@media (max-width: 1300px){
+    #contact{
+        width:auto;
+    }
+}

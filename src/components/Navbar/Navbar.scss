@@ -1,0 +1,112 @@
+@import '../../shared/Global.scss';
+
+//hamburger icon
+#checkbox{
+    display:none;
+    
+}
+.hamburger{
+    margin: auto 0;
+    position: relative;
+    width: 21px;
+    padding: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    .line{
+        position: absolute;
+        width: 21px;
+        height: 2px;
+        background-color: black;
+        border-radius: 3px;
+        transition: transform .25s, opacity .35s;
+    }
+    .line--top{
+        transform: translateY(-7px);
+    }
+    .line--bot{
+        transform: translateY(7px);
+    }
+    
+}
+#checkbox:checked~.line--top{
+    transform: rotate(45deg);
+}
+#checkbox:checked~.line--mid{
+    transform: translateX(16px);
+    opacity: 0;
+}
+#checkbox:checked~.line--bot{
+    transform: rotate(-45deg);
+}
+
+//Navbar
+#navbar {
+    width: 100vw;
+    nav{
+        width: 1920px;
+        display: flex;
+        justify-content: space-between;
+        //padding: 1rem 0;
+        height: 60px;
+        margin: 0 auto;
+    }
+    .logo{
+        margin: auto 0;
+        margin-left: 3rem;
+        
+    }
+    .nav-links{
+        display: flex;
+        margin: auto 0;
+        margin-right: 3rem;
+        ol{
+            display:flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            a{
+                height: 100%;
+                padding: 1rem 2rem 1rem 2rem;
+            }
+            a:hover{
+                border-bottom: 4px solid $dkblue;
+            }
+        }
+    }
+    .burger-icon{
+        display: none;
+        position: relative;
+    }
+
+    @media (max-width: 1920px){
+        nav{
+            width: 100vw;
+        }
+    }
+    @media(max-width: 768px) {
+        .nav-links{
+            ol{
+                background-color: grey;
+                display: block;
+                width: 75vw;
+                height: 100vh;
+                position: fixed;
+                overflow-x: hidden;
+                bottom: 0px;
+                li{
+                    margin: 4rem 0;
+                }
+                a{
+                    display: block;
+                    text-align: center;
+                    margin: 0 auto;
+                }
+            }
+        }
+        .burger-icon{
+            display: flex !important; 
+        }
+    }
+}

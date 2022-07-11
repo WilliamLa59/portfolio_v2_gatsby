@@ -1,0 +1,38 @@
+#checkbox{
+    display:none;
+    
+}
+.hamburger{
+    position: relative;
+    width: 21px;
+    padding: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    .line{
+        position: absolute;
+        width: 21px;
+        height: 2px;
+        background-color: black;
+        border-radius: 3px;
+        transition: transform .25s, opacity .35s;
+    }
+    .line--top{
+        transform: translateY(-7px);
+    }
+    .line--bot{
+        transform: translateY(7px);
+    }
+    
+}
+#checkbox:checked~.line--top{
+    transform: rotate(45deg);
+}
+#checkbox:checked~.line--mid{
+    transform: translateX(16px);
+    opacity: 0;
+}
+#checkbox:checked~.line--bot{
+    transform: rotate(-45deg);
+}

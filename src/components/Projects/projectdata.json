@@ -1,0 +1,76 @@
+[
+    {
+        "title": "Prepr Labs Homepage & Dashboard Clone",
+        "tech": "React, Chakra UI, SASS",
+        "desc": "A semi-functional clone of the Prepr Labs dashboard. Functionalities include: login with predefined credentials, dark and light mode, create dummy projects that can be seen on the dashboard",
+        "repo": "https://github.com/WilliamLa59/PreprLabChallenges/tree/main/frontend-challenge1",
+        "live": "",
+        "pic": "static/prepr.png"
+    },
+    {
+        "title": "Xenon Landing Page",
+        "tech": "React, Chakra UI, SASS",
+        "desc": "A landing page I developed and helped design for a concept wellness app.",
+        "repo": "https://github.com/WilliamLa59/xenon-landing-page",
+        "live": "",
+        "pic": "static/xenon.png"
+    },
+    {
+        "title": "Blogr Landing Page",
+        "tech": "React, Chakra UI, SASS",
+        "desc": "A landing page I developed and helped design for a concept wellness app.",
+        "repo": "https://github.com/WilliamLa59/WebMockups/tree/main/blogr-landing-page",
+        "live": "",
+        "pic": "static/blogr.png"
+    },
+    {
+        "title":"Space Tourism Website",
+        "tech": "React",
+        "desc": "A multi-page react website to promote space tourism. A Frontend Mentor challange, where I needed to create the website as close to the provided wireframes as possible, along with all functionality and effects",
+        "repo": "https://github.com/WilliamLa59/WebMockups/tree/main/space-tourism-website-challange",
+        "live": ""
+    },
+    {
+        "title": "Personal Website V1",
+        "tech": "HTML, CSS, JS, Bootstrap",
+        "desc": "Created at the start of 2021, this is my first portfolio website. Nothing too fancy, just a static webpage. Deployed using AWS.",
+        "repo": "https://github.com/WilliamLa59/WebProjects/tree/main/PersonalWebsite(outdated)",
+        "live": ""
+    },
+    {
+        "title": "ASP.NET Portfolio Builder",
+        "tech": "ASP.net, Razor Pages, SQL LocalDB, Entity Framework",
+        "desc": "A website where users can build up a portfolio of their projects. Uses cookie based authentication for admin login in order to perform CRUD operations, such as adding, editing and deleting projects.",
+        "repo": "https://github.com/WilliamLa59/WebProjects/tree/main/PortfolioTemplateV2",
+        "live": ""
+    },
+    {
+        "title": "Url Shrinker Service",
+        "tech": "Node.js, Express, MongoDB",
+        "desc": "A Website along with an API that shortens URL links",
+        "repo": "https://github.com/WilliamLa59/WebProjects/tree/main/Url-Shortener-Website",
+        "live": ""
+    },
+    {
+        "title": "Google Keep Clone",
+        "tech": "React",
+        "desc": "A simple Google Keep clone built with React",
+        "repo": "https://github.com/WilliamLa59/Udemy-Projects/tree/main/Keeper",
+        "live": ""
+    },
+    {
+        "title": "Blog Website",
+        "tech": "Node.js, Express, EJS, MongoDB",
+        "desc": "Blog website that allows for viewing, creating, and deleting posts. Posts are stored on MongoDB Atlas",
+        "repo": "https://github.com/WilliamLa59/Udemy-Projects/tree/main/EJS%20Blog",
+        "live": ""
+    },
+    {
+        "title": "ToDo List",
+        "tech": "Node.js, Express, Javascript, EJS, MongoDB",
+        "desc": "Your run of the mill ToDo list app. Allows for additional custom lists. All lists and list items are stored on MongoDB Atlas.",
+        "repo": "https://github.com/WilliamLa59/Udemy-Projects/tree/main/todolist",
+        "live": ""
+    }
+]
+

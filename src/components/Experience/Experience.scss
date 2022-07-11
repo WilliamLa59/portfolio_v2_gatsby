@@ -1,0 +1,38 @@
+@import '../../shared/Global.scss';
+
+#experience{
+    width: $L-content-wth;
+    margin: auto;
+    
+    .experience-content{
+        width: 50%;
+        height: 500px;
+        margin: 0 auto 6rem auto;
+        .exp-title{
+            padding-left: 80px;
+        }
+    }
+    .exp-window{
+        display: flex;
+        .exp-nav{
+            width: 25%;
+            ol{
+                margin: 0;
+                padding: 0;
+                margin-bottom: 1rem;
+                list-style: none;
+                
+            }
+        }
+        .exp-content{
+            width: 75%;
+        }
+    }
+    
+}
+
+@media (max-width: 1300px){
+    #experience{
+        width:auto;
+    }
+}

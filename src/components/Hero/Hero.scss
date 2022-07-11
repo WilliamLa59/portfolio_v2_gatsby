@@ -1,0 +1,42 @@
+@import '../../shared/Global.scss';
+#hero{
+    width: $content-wth;
+    height: 95vh;
+    margin: auto;
+    display: flex;
+    .hero-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        height: 100%;
+        width: 70%;
+        text-align: left;
+        p{
+            font-size: 20px;
+            width: 75%;
+        }
+        .mid-link{
+            margin: 0 2rem;
+        } 
+    
+         
+        button{
+            width: 6rem;
+            height: 2rem;
+            border-radius: 1rem;
+            border-color: $glaucous;
+            box-shadow: none;
+        }
+        button:hover{
+            background: $liteBlue;
+        }
+
+    }   
+}
+
+@media (max-width: 1300px){
+    #hero{
+        width:auto;
+    }
+}

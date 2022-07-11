@@ -1,0 +1,37 @@
+@import '../../shared/Global.scss';
+
+#projects{
+    width: $XL-content-wth;
+    margin: auto;
+
+    .projects-content{
+        margin: 0 auto 6rem auto;
+        width: 50%;
+    }
+
+    .show-btn{
+        display: flex;
+        justify-content: center;
+    }
+
+    .highlight-projects{
+        display: flex;
+        img{
+            width: 550px;
+            height: 350px;
+        }
+
+        .project-content{
+            text-align: right;
+            .project-desc{
+                text-align: left;
+            }
+        }
+    }
+}
+
+@media (max-width: 1300px){
+    #projects{
+        width:auto;
+    }
+}
