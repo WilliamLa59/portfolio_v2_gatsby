@@ -31,7 +31,7 @@ const oldProjects = data.slice(3, data.length);
                             <h3 className='project-title'>{project.title}</h3>
                             <p className='project-desc'>{project.desc}</p>
                             <p className='project-tech'>{project.tech}</p>
-                            <a href={project.repo} target="_blank" ><FontAwesomeIcon icon={faGithub} /></a>
+                            <a href={project.repo} target="_blank" ><FontAwesomeIcon size="xl" icon={faGithub} /></a>
                         </div>
                     </div>
                 </div>
@@ -43,17 +43,23 @@ const oldProjects = data.slice(3, data.length);
         
     
         <section style={showMore? {display: "block"} : {display: "none"}}>
-            {oldProjects.map((project, x)=>{
-                return(
-                    <div key={x}>
-                        <h3>{project.title}</h3>
-                        <p>{project.desc}</p>
-                        <p>{project.tech}</p>
-                        <a href={project.repo} target="_blank" ><FontAwesomeIcon icon={faGithub} /></a>
-                    </div>
-                    
-                )
-            })}
+            <div className='old-projects'>
+                {oldProjects.map((project, x)=>{
+                    return(
+                        <div key={x} className='project-card'>
+                            
+                            <div className='project-card-title'>
+                                <h3>{project.title}</h3>
+                                <a href={project.repo} target="_blank" ><FontAwesomeIcon size="xl" icon={faGithub} /></a>
+                            </div>
+                            <p>{project.desc}</p>
+                            <p>{project.tech}</p>
+                            
+                        
+                        </div>
+                    )
+                })}
+            </div>
             <div className='show-btn'>
                 <button onClick={()=>{setShowMore(false);}}>Show Less</button>
             </div>

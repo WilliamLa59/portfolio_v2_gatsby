@@ -12,7 +12,7 @@
     {
         "role":"Volunteer Web Developer",
         "company":"Toronto Metropolitan University",
-        "date":"May 2022 - Present",
+        "date":"May 2022 - July",
         "desc":[
             "Collaborated with a research assistant to develop a React web application to collect brainwave data using a Neurosity Crown device.", 
             "Translated the collected data from JSON to a downloadable CSV file to be viewable in Excel.",
@@ -21,7 +21,7 @@
     },
     {
         "role":"Front End Developer Trainee",
-        "company":"Prepr labs",
+        "company":"Prepr Labs",
         "date":"March 2022",
         "desc":[
             "Collaborated with graphic and UX designers to create and design a landing page mockup for a concept wellness app.", 

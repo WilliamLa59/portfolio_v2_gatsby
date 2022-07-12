@@ -16,19 +16,20 @@
         "pic": "static/xenon.png"
     },
     {
+        "title":"Space Tourism Website",
+        "tech": "React",
+        "desc": "A multi-page react website to promote space tourism. A Frontend Mentor challange, where I needed to create the website as close to the provided wireframes as possible, along with all functionality and effects",
+        "repo": "https://github.com/WilliamLa59/WebMockups/tree/main/space-tourism-website-challange",
+        "live": "",
+        "pic": "static/space.png"
+    },
+    {
         "title": "Blogr Landing Page",
         "tech": "React, Chakra UI, SASS",
         "desc": "A landing page I developed and helped design for a concept wellness app.",
         "repo": "https://github.com/WilliamLa59/WebMockups/tree/main/blogr-landing-page",
         "live": "",
         "pic": "static/blogr.png"
-    },
-    {
-        "title":"Space Tourism Website",
-        "tech": "React",
-        "desc": "A multi-page react website to promote space tourism. A Frontend Mentor challange, where I needed to create the website as close to the provided wireframes as possible, along with all functionality and effects",
-        "repo": "https://github.com/WilliamLa59/WebMockups/tree/main/space-tourism-website-challange",
-        "live": ""
     },
     {
         "title": "Personal Website V1",

@@ -6,7 +6,7 @@
 
     .projects-content{
         margin: 0 auto 6rem auto;
-        width: 50%;
+        width: 60%;
     }
 
     .show-btn{
@@ -16,18 +16,34 @@
 
     .highlight-projects{
         display: flex;
+        margin-bottom: 4rem;
         img{
             width: 550px;
-            height: 350px;
+            height: 300px;
         }
 
         .project-content{
             text-align: right;
-            .project-desc{
-                text-align: left;
-            }
         }
     }
+
+    .old-projects{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0 auto;
+        .project-card{
+            width: 300px;
+            height: 300px;
+            margin: 1rem;
+            padding: 1.5rem;
+            .project-card-title{
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+        
+    }
+
 }
 
 @media (max-width: 1300px){
