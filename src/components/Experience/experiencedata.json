@@ -1,23 +1,23 @@
 [
     {
+        "role":"Volunteer Web Developer",
+        "company":"Toronto Metropolitan University",
+        "date":"May 2022 - Present",
+        "desc":[
+            "Collaborated with a research assistant to develop and evolve a React web application to collect brainwave data from a Neurosity Crown device.", 
+            "Translate the collected data from JSON to a downloadable CSV file to be viewable in Excel.",
+            "Accompanied by a back end that allowed for data to be saved to a remote MongoDB database using NodeJS"
+        ] 
+    },
+    {
         "role":"Web Developer Intern",
         "company":"Ontario Business Gate",
-        "date":"April 2022 - Present",
+        "date":"April - July 2022",
         "desc":[
             "Developed custom dashboards to match various business requirement specifications using Thinger.io.", 
             "Configured REST API endpoints to link IoT devices to Thinger.io data buckets to store telemetrics, such as asset location, event history, temperature and humidity, to be displayed by widgets.",
             "Created and applied custom HTML and Javascript widgets to monitor and display data from IoT devices."
         ]
-    },
-    {
-        "role":"Volunteer Web Developer",
-        "company":"Toronto Metropolitan University",
-        "date":"May 2022 - July",
-        "desc":[
-            "Collaborated with a research assistant to develop a React web application to collect brainwave data using a Neurosity Crown device.", 
-            "Translated the collected data from JSON to a downloadable CSV file to be viewable in Excel.",
-            "Accompanied by a back end that allowed for data to be saved to a remote MongoDB database using NodeJS"
-        ] 
     },
     {
         "role":"Front End Developer Trainee",

@@ -5,7 +5,7 @@ export const About = () => {
   return (
     <section id="about">
       <div className='about-content'>
-        <h2 className='section-title'>01. About Me</h2>
+        <h2 className='section-title'><span className='title-num'>01. </span>About Me</h2>
 
         <p>
           I'm an aspiring web developer with a current focus on front-end development. 
@@ -19,7 +19,7 @@ export const About = () => {
           These are the technologies I'm mainly using:
         </p>
         <br/>
-        <ul className='skills-list'>
+        <ul className='skills-list fontmono'>
           <li>React</li>
           <li>Node.js</li>
           <li>HTML</li>

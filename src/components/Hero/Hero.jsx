@@ -21,8 +21,8 @@ export const Hero = () => {
           <a href={resume} target="_blank" without rel="noopener noreferrer">
             <button>Resume</button>
           </a>
-          <a className="mid-link linkedin" href="https://www.linkedin.com/in/williamla59/"><FontAwesomeIcon size="xl" classname="linkedin" icon={faLinkedin}/></a>
-          <a className="github"href="https://github.com/WilliamLa59"><FontAwesomeIcon size="xl" icon={faGithub}/></a>
+          <a className="mid-link linkedin-link" href="https://www.linkedin.com/in/williamla59/"><FontAwesomeIcon size="xl" classname="linkedin" icon={faLinkedin}/></a>
+          <a className="github-link"href="https://github.com/WilliamLa59"><FontAwesomeIcon size="xl" icon={faGithub}/></a>
         </div>
       </div>
       

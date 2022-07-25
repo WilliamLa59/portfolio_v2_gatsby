@@ -1,11 +1,11 @@
 @import '../../shared/Global.scss';
 
 #experience{
-    width: $L-content-wth;
-    margin: auto;
+    width: $content-wth;
+    margin: 10rem auto 0 auto;
     
     .experience-content{
-        width: 50%;
+        width: 70%;
         height: 400px;
         margin: 0 auto 6rem auto;
         .exp-title{
@@ -21,11 +21,26 @@
                 padding: 0;
                 margin-bottom: 1rem;
                 list-style: none;
-                
+                li{
+                    cursor: pointer;
+                    color: white
+                }
             }
         }
         .exp-content{
             width: 75%;
+            margin-left: 2rem;
+            .exp-role, .exp-date{
+                color: #ccd6f6;
+            }
+            .exp-company{
+                color: $glaucous
+            }
+
+            ol{
+                list-style: disc;
+                color: #a8b2d1;
+            }
         }
     }
     
