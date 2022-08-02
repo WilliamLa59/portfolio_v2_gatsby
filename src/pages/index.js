@@ -11,6 +11,7 @@ import { Projects } from '../components/Projects/Projects';
 const IndexPage = () => {
   return (
     <main>
+     <title>William La - Web Developer</title>
      <Navbar/>
      {/* <Hamburger/> */}
      <Hero/>
