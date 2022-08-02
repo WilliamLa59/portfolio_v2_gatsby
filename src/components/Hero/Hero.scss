@@ -2,7 +2,8 @@
 #hero{
     width: $content-wth;
     height: 95vh;
-    margin: auto;
+    
+    margin: 60px auto 0 auto;
     display: flex;
     .hero-content{
         display: flex;
@@ -12,7 +13,11 @@
         height: 100%;
         width: 70%;
         text-align: left;
+        h1,h3{
+            color: $titlecolor;
+        }
         p{
+            color: $txtcolor;
             font-size: 20px;
             width: 75%;
         }
@@ -22,14 +27,17 @@
     
          
         button{
+            font-size: 14px;
             width: 6rem;
             height: 2rem;
             border-radius: 1rem;
-            border-color: $purple;
+            border-color: $blue;
+            background-color: white;
             box-shadow: none;
         }
         button:hover{
-            background: $liteBlue;
+            background: $purple;
+            border-color: $gray;
         }
     }   
 }

@@ -10,11 +10,18 @@ $glaucous: #5c80bc;
 $independence: #4d5061;
 $blackolive: #3d3b30;
 
+$txtcolor: #a8b2d1;
+$titlecolor: #ccd6f6;
 //content-width
 $content-wth: 1300px;
 
 $font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
 $font-mono: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+
+.stop-scrolling{
+    position: static;
+    overflow-y: hidden;
+}
 
 html{
     background-color: $dkblue; //$beige
@@ -51,26 +58,33 @@ h1{
 h2{
     font-size: 28px;
     margin: 0 0 3rem 0;
-    color: white;
+    color: $beige;
 }
-.title-num{
+
+.title-num,.txt-highlight{
     color: $blue;
 }
+
 h3{
     font-size: 20px;
     margin: 0;
 }
 
-// .section-title::after{
-//     content: "";
-//     display: block;
-//     position: relative;
-//     top: -15px;
-//     width: 300px;
-//     height: 2px;
-//     margin-left: 17rem;
-//     background-color: black;
-// }
+.sub-txt{
+    font-size: 15px;
+    color: white;
+    text-align: right;
+    margin: 0 auto 1.5rem auto;
+    width: 82%;  
+}
+
+.sub-txt2{
+    font-size: 25px;
+    color: white;
+    text-align: left;
+    margin: 0 auto 0rem auto;
+    width: 87%;  
+}
 
 .fontsans{
     font-family: $font-sans;

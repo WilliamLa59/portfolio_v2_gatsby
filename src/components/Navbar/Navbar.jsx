@@ -1,13 +1,18 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import "./Navbar.scss"
 import '../../shared/Global.scss'
-import { useEffect } from 'react'
+import disableScroll from 'disable-scroll';
 
 
 export const Navbar = ({ children }) => {
   const [ show, setShow] = useState(true);
   const [ lastScrollY, setLastScrollY] = useState(0);
   const [ isMobile, setIsMobile] = useState(false);
+  const [checked, setChecked] = useState(false);
+
+  const handleCheckbox = () => {
+    setChecked(false)
+  } 
 
   const controlNav = () => {
     if (window.scrollY > lastScrollY){
@@ -17,6 +22,15 @@ export const Navbar = ({ children }) => {
     }
     setLastScrollY(window.scrollY); 
   }
+
+  useEffect(() => {
+    if(checked === true){
+      console.log("im here");
+      disableScroll.on();
+    }else{
+      disableScroll.off();
+    }
+  }, [checked]);
 
   useEffect(() => {
     window.addEventListener("scroll", controlNav)
@@ -36,15 +50,15 @@ export const Navbar = ({ children }) => {
         <div className='nav-links fontmono'>
           
           <ol style={isMobile ? {right: "0px"} : {right: "-100vh"}}>
-            <li className='top-link'><a href="#about" onClick={() => setIsMobile(!isMobile)}><span>01. </span>About</a></li>
-            <li><a href="#experience" onClick={() => setIsMobile(!isMobile)}><span className='title-num'>02. </span>Experience</a></li>
-            <li><a href="#projects" onClick={() => setIsMobile(!isMobile)}><span className='title-num'>03. </span>Projects</a></li>
-            <li><a href="#contact" onClick={() => setIsMobile(!isMobile)}><span className='title-num'>04. </span>Contact</a></li>
+            <li className='top-link'><a href="#about" onClick={() => {setIsMobile(false); handleCheckbox()}}><span>01. </span>About</a></li>
+            <li><a href="#experience" onClick={() => {setIsMobile(false); handleCheckbox()}}><span className='title-num'>02. </span>Experience</a></li>
+            <li><a href="#projects" onClick={() => {setIsMobile(false); handleCheckbox()}}><span className='title-num'>03. </span>Projects</a></li>
+            <li><a href="#contact" onClick={() => {setIsMobile(false); handleCheckbox()}}><span className='title-num'>04. </span>Contact</a></li>
           </ol>
 
           <div className='burger-icon'>
             <label labelFor="checkbox" className='hamburger'>
-              <input type="checkbox" id="checkbox" onClick={()=> setIsMobile(!isMobile)}/>
+              <input type="checkbox" checked={checked} id="checkbox" onClick={()=> {setChecked(!checked); setIsMobile(!isMobile)} }/>
               <span className='line line--top'></span>
               <span className='line line--mid'></span>
               <span className='line line--bot'></span>

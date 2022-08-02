@@ -14,12 +14,12 @@ export const Hero = () => {
       
       <div className='hero-content'>
         
-        <h3>Hi There!</h3>
-        <h1>I'm William La.</h1>
+        <h3>Hi There! I'm </h3>
+        <h1><span className='txt-highlight'>William</span> La</h1>
         <p>An aspiring Web Developer with a passion for learning and creating new things.</p>
         <div className='hero-links'>
           <a href={resume} target="_blank" without rel="noopener noreferrer">
-            <button>Resume</button>
+            <button className='fontsans'>Resume</button>
           </a>
           <a className="mid-link linkedin-link" href="https://www.linkedin.com/in/williamla59/"><FontAwesomeIcon size="xl" classname="linkedin" icon={faLinkedin}/></a>
           <a className="github-link"href="https://github.com/WilliamLa59"><FontAwesomeIcon size="xl" icon={faGithub}/></a>

@@ -3,12 +3,14 @@
     width: $content-wth;
     margin: auto;
     .about-content{
-        margin: 10rem auto 0 auto;
+        margin: 15rem auto 0 auto;
         width: 50%;
         p{
+            color: $txtcolor;
             margin:0;
         }
         .skills-list{
+            color: $gray;
             columns: 2;
             list-style: none;
             width: 50%;

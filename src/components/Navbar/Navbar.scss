@@ -18,7 +18,7 @@
         position: absolute;
         width: 21px;
         height: 2px;
-        background-color: black;
+        background-color: $titlecolor;
         border-radius: 3px;
         transition: transform .25s, opacity .35s;
     }
@@ -102,19 +102,21 @@
             width: 100vw;
         }
     }
-    @media(max-width: 768px) {
+    @media(max-width: 784px) {
         .nav-links{
             
             ol{
-                background-color: grey;
+                background-color: $independence;
+                margin: auto 0;
                 display: block;
                 width: 75vw;
                 height: 100vh;
                 position: fixed;
                 overflow-x: hidden;
                 bottom: 0px;
+                transition: ease-in-out 0.4s;
                 .top-link{
-                    margin-top: 25rem;
+                    margin-top: calc(100vh/3);
                 }
                 li{
                     margin: 2rem 0;
@@ -124,6 +126,10 @@
                     display: block;
                     text-align: center;
                     margin: 0 auto;
+                }
+                a:hover{
+                    // border-bottom: 4px solid $dkblue;
+                    color: $glaucous;
                 }
             }
         }

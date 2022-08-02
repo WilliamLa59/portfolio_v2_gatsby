@@ -4,7 +4,7 @@ import '../../shared/Global.scss'
 export const Footer = () => {
   return (
     <footer id="footer">
-      <p>Designed & Built by William La</p>  
+      <p className='fontsans'>© William La 2022</p>  
     </footer>
   )
 }

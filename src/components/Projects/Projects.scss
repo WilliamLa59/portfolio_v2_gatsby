@@ -2,7 +2,7 @@
 
 #projects{
     width: $content-wth;
-    margin: 10rem auto 0 auto;
+    margin: 20rem auto 0 auto;
 
     .projects-content{
         margin: 0 auto 6rem auto;
@@ -15,14 +15,14 @@
     }
 
     .highlight-projects{
-        .section-title{
-            width: 85%;
-        }
         width: 85%;
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin: 0 auto;
         margin-bottom: 4rem;
+        .section-title{
+            width: 85%;
+        }
         .project-img{
             position: relative;
             left: 20px;
@@ -40,10 +40,10 @@
             text-align: right;
             .project-title{
                 margin-top: 2rem;
-                color: #ccd6f6;
+                color: $titlecolor;
             }
             .project-desc{
-                color: #a8b2d1;
+                color: $txtcolor;
                 background-color: $independence;
                 border-radius: 10px;
                 padding: 2rem 1rem 2rem 0;
@@ -55,8 +55,22 @@
                 margin-left: 2rem;
             }
         }
+    }
 
-        
+    .show-btn{
+        button{
+            font-size: 14px;
+            width: 6rem;
+            height: 2rem;
+            border-radius: 1rem;
+            border-color: $blue;
+            background-color: white;
+            box-shadow: none;
+        }
+        button:hover{
+            background: $purple;
+            border-color: $gray;
+        }
     }
 
     .old-projects{
@@ -69,7 +83,7 @@
             border-radius: 5px;
             width: 300px;
             height: 300px;
-            margin: 1rem;
+            margin: 1rem auto;
             padding: 1.5rem;
             .project-card-title{
                 display: flex;
@@ -77,13 +91,13 @@
                 margin-bottom: 2rem;
             }
             .project-title{
-                color: #ccd6f6;
+                color: $titlecolor;
             }
             .project-tech{
                 color: $dkblue;
             }
             h3, p{
-                color: #a8b2d1;
+                color: $txtcolor;
             }
         }
     }
@@ -95,6 +109,37 @@
         .old-projects{
             grid-template-columns: 1fr 1fr;
         }
+    }   
+}
+
+@media (max-width: 775px) {
+    #projects{
+        width:auto;
+        .old-projects{
+            display: flex;
+            flex-direction: column;
+        }
+    }   
+}
+
+
+@media (max-width: 862px){
+    #projects{
+        .highlight-projects{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+    
+            .project-img{
+                left: 0;
+            }
+            .project-content{
+                right: 0;
+            }
+        }
     }
     
 }
+
+
+

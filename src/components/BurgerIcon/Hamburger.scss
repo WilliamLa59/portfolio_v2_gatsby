@@ -1,3 +1,5 @@
+@import '../../shared/Global.scss';
+
 #checkbox{
     display:none;
     
@@ -14,7 +16,7 @@
         position: absolute;
         width: 21px;
         height: 2px;
-        background-color: black;
+        background-color: $titlecolor;
         border-radius: 3px;
         transition: transform .25s, opacity .35s;
     }

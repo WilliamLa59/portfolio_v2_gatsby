@@ -2,12 +2,31 @@
 
 #contact{
     width: $content-wth;
-    margin: 10rem auto 10rem auto;
+    margin: 20rem auto 10rem auto;
     .contact-content{
         width: 50%;
         margin: 0 auto;
         text-align: center;
+    }
+    h1{
+        color: $titlecolor;
+    }
+    p{
+        color: $txtcolor;
+    }
 
+    button{
+        font-size: 14px;
+        width: 6rem;
+        height: 2rem;
+        border-radius: 1rem;
+        border-color: $blue;
+        background-color: white;
+        box-shadow: none;
+    }
+    button:hover{
+        background: $purple;
+        border-color: $gray;
     }
 }
 
