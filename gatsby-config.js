@@ -1,7 +1,21 @@
 module.exports = {
   siteMetadata: {
     title: `William La`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://www.williamla.dev`
   },
-  plugins: ["gatsby-plugin-sass"]
+  plugins: [
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: 'React go',
+        short_name: 'Reactgo',
+        start_url: '/',
+        background_color: '#f7f0eb',
+        theme_color: '#a2466c',
+        display: 'standalone',
+        icon: 'public/static/favicon/favicon-32x32.png',
+      },
+    },
+    "gatsby-plugin-sass"
+  ]
 };

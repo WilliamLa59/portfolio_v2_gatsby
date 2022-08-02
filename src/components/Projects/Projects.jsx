@@ -35,8 +35,8 @@ const oldProjects2 = data.slice(9, data.length)
                             <h3 className='project-title'>{project.title}</h3>
                             <p className='project-desc'>{project.desc}</p>
                             <p className='project-tech fontmono'>{project.tech}</p>
-                            <a href={project.repo} className="github-link" target="_blank" ><FontAwesomeIcon size="xl" icon={faGithub} /></a>
-                            <a href={project.live} className="live-link" target="_blank"><FontAwesomeIcon size="xl" icon={faArrowUpRightFromSquare}/></a>
+                            <a href={project.repo} className="github-link" target="_blank" rel="noopener noreferrer" aria-label="Github-link"><FontAwesomeIcon size="xl" icon={faGithub} /></a>
+                            <a href={project.live} className="live-link" target="_blank" rel="noopener noreferrer" aria-label="Live-link"><FontAwesomeIcon size="xl" icon={faArrowUpRightFromSquare}/></a>
                         </div>
                     </div>
                 </div>
@@ -52,7 +52,7 @@ const oldProjects2 = data.slice(9, data.length)
                         
                         <div className='project-card-title'>
                             <FontAwesomeIcon size="2xl" icon={faFolder}/>
-                            <a href={project.repo} className="github-link" target="_blank" ><FontAwesomeIcon size="xl" icon={faGithub} /></a>
+                            <a href={project.repo} className="github-link" target="_blank" rel="noopener noreferrer" aria-label="Github-link"><FontAwesomeIcon size="xl" icon={faGithub} /></a>
                         </div>
                         <h3 className='project-title'>{project.title}</h3>
                         <p>{project.desc}</p>
@@ -76,7 +76,7 @@ const oldProjects2 = data.slice(9, data.length)
                             
                             <div className='project-card-title'>
                                 <FontAwesomeIcon size="2xl" icon={faFolder}/>
-                                <a href={project.repo} className="github-link" target="_blank" ><FontAwesomeIcon size="xl" icon={faGithub} /></a>
+                                <a href={project.repo} className="github-link" target="_blank" rel="noopener noreferrer" aria-label="Github-link"><FontAwesomeIcon size="xl" icon={faGithub} /></a>
                             </div>
                             <h3 className='project-title'>{project.title}</h3>
                             <p>{project.desc}</p>

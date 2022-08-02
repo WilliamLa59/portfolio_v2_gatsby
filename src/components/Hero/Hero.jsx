@@ -18,11 +18,11 @@ export const Hero = () => {
         <h1><span className='txt-highlight'>William</span> La</h1>
         <p>An aspiring Web Developer with a passion for learning and creating new things.</p>
         <div className='hero-links'>
-          <a href={resume} target="_blank" without rel="noopener noreferrer">
+          <a href={resume} target="_blank" rel="noopener noreferrer">
             <button className='fontsans'>Resume</button>
           </a>
-          <a className="mid-link linkedin-link" href="https://www.linkedin.com/in/williamla59/"><FontAwesomeIcon size="xl" classname="linkedin" icon={faLinkedin}/></a>
-          <a className="github-link"href="https://github.com/WilliamLa59"><FontAwesomeIcon size="xl" icon={faGithub}/></a>
+          <a className="mid-link linkedin-link" href="https://www.linkedin.com/in/williamla59/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn-link"><FontAwesomeIcon size="xl" className="linkedin" icon={faLinkedin}/></a>
+          <a className="github-link"href="https://github.com/WilliamLa59" target="_blank" rel="noopener noreferrer" aria-label="Github-link"><FontAwesomeIcon size="xl" icon={faGithub}/></a>
         </div>
       </div>
       

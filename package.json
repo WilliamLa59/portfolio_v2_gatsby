@@ -22,6 +22,7 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "disable-scroll": "^0.6.0",
     "gatsby": "^4.17.2",
+    "gatsby-plugin-manifest": "^4.20.0",
     "gatsby-plugin-sass": "^5.17.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",

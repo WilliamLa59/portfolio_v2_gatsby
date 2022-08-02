@@ -57,8 +57,8 @@ export const Navbar = ({ children }) => {
           </ol>
 
           <div className='burger-icon'>
-            <label labelFor="checkbox" className='hamburger'>
-              <input type="checkbox" checked={checked} id="checkbox" onClick={()=> {setChecked(!checked); setIsMobile(!isMobile)} }/>
+            <label labelfor="checkbox" className='hamburger'>
+              <input type="checkbox" checked={checked} id="checkbox" onClick={()=> {setIsMobile(!isMobile)}} onChange={()=>{setChecked(!checked);}}/>
               <span className='line line--top'></span>
               <span className='line line--mid'></span>
               <span className='line line--bot'></span>
