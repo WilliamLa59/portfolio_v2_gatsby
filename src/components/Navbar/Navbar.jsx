@@ -25,7 +25,6 @@ export const Navbar = ({ children }) => {
 
   useEffect(() => {
     if(checked === true){
-      console.log("im here");
       disableScroll.on();
     }else{
       disableScroll.off();
