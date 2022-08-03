@@ -5,7 +5,7 @@
         "desc": "A semi-functional clone of the Prepr Labs dashboard. Functionalities include: login with predefined credentials, dark and light mode, create dummy projects that can be seen on the dashboard",
         "repo": "https://github.com/WilliamLa59/PreprLabChallenges/tree/main/frontend-challenge1",
         "live": "https://prepr-homepage-clone.herokuapp.com/",
-        "pic": "static/prepr.png"
+        "pic": "/static/prepr.png"
     },
     {
         "title": "Xenon Landing Page",
@@ -13,7 +13,7 @@
         "desc": "A landing page I developed and helped design for a concept wellness app.",
         "repo": "https://github.com/WilliamLa59/xenon-landing-page",
         "live": "https://xenon-landing-page.herokuapp.com/",
-        "pic": "static/xenon.png"
+        "pic": "/static/xenon.png"
     },
     {
         "title":"Space Tourism Website",
@@ -21,7 +21,7 @@
         "desc": "A multi-page react website to promote space tourism. A Frontend Mentor challange, where I needed to create the website as close to the provided wireframes as possible, along with all functionality and effects",
         "repo": "https://github.com/WilliamLa59/WebMockups/tree/main/space-tourism-website-challange",
         "live": "https://wl-space-tourism-challenge.herokuapp.com/technology",
-        "pic": "static/space.png"
+        "pic": "/static/space.png"
     },
     {
         "title": "Blogr Landing Page",
@@ -29,7 +29,7 @@
         "desc": "Another Frontend Mentor challenge.",
         "repo": "https://github.com/WilliamLa59/WebMockups/tree/main/blogr-landing-page",
         "live": "",
-        "pic": "static/blogr.png"
+        "pic": "/static/blogr.png"
     },
     {
         "title": "Personal Website V1",
