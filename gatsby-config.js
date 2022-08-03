@@ -13,7 +13,7 @@ module.exports = {
         background_color: '#f7f0eb',
         theme_color: '#a2466c',
         display: 'standalone',
-        icon: 'public/static/favicon/favicon-32x32.png',
+        icon: 'src/images/favicon/favicon-32x32.png',
       },
     },
     "gatsby-plugin-sass"
