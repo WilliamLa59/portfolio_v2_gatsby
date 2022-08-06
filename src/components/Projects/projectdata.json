@@ -34,7 +34,7 @@
     {
         "title": "Personal Website V1",
         "tech": "HTML, CSS, JS, Bootstrap",
-        "desc": "Created at the start of 2022, this is my first portfolio website. Nothing too fancy, just a static webpage. Deployed using AWS.",
+        "desc": "Created at the start of 2022, this is my first portfolio website. Nothing too fancy, just a static webpage.",
         "repo": "https://github.com/WilliamLa59/WebProjects/tree/main/PersonalWebsite(outdated)",
         "live": ""
     },

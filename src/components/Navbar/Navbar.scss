@@ -104,7 +104,6 @@
     }
     @media(max-width: 784px) {
         .nav-links{
-            
             ol{
                 background-color: $independence;
                 margin: auto 0;
@@ -116,7 +115,7 @@
                 bottom: 0px;
                 transition: ease-in-out 0.4s;
                 .top-link{
-                    margin-top: calc(100vh/3);
+                    margin-top: calc(100vh/5);
                 }
                 li{
                     margin: 2rem 0;
@@ -135,6 +134,32 @@
         }
         .burger-icon{
             display: flex !important; 
+        }
+    }
+
+    @media (max-height: 515px){
+        .nav-links{
+            ol{
+                .top-link{
+                    margin-top: 5rem;
+                }
+                li{
+                    margin: 1rem 0;
+                }
+            }
+        }
+    }
+
+    @media (max-height: 515px){
+        .nav-links{
+            ol{
+                .top-link{
+                    margin-top: 5rem;
+                }
+                li{
+                    margin: 0rem 0;
+                }
+            }
         }
     }
 }

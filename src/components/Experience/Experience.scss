@@ -6,11 +6,8 @@
     
     .experience-content{
         width: 70%;
-        height: 400px;
+        // height: 400px;
         margin: 0 auto 6rem auto;
-        .exp-title{
-            padding-left: 80px;
-        }
     }
     .exp-window{
         display: flex;
@@ -23,7 +20,8 @@
                 list-style: none;
                 li{
                     cursor: pointer;
-                    color: white
+                    color: white;
+                    height: 100%;
                 }
             }
         }
@@ -49,5 +47,30 @@
 @media (max-width: 1300px){
     #experience{
         width:auto;
+    }
+}
+
+@media (max-width: 538px){
+    #experience{
+        .experience-content{
+            width: 100%;
+        }
+        .exp-window{
+            flex-direction: column;
+            .exp-nav{
+                display: flex;
+                width: 100%;
+                margin-bottom: 2rem;
+            }
+        }
+        
+    }
+}
+
+@media (max-width: 450px){
+    #experience{
+        .experience-content{
+            width: 100%;
+        }
     }
 }

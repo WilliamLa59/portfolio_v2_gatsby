@@ -15,6 +15,7 @@
             list-style: none;
             width: 50%;
             margin: 0 auto;
+            padding: 0;
         }
     }
 }
@@ -22,5 +23,24 @@
 @media (max-width: 1300px){
     #about{
         width:auto;
+    }
+}
+
+@media (max-width: 538px){
+    #about{
+        .about-content{
+            width: 100%;
+            .skills-list{
+                columns: 2;
+            }
+        }
+    }
+}
+
+@media (max-width: 450px){
+    #about{
+        .about-content{
+            width: 100%;
+        }
     }
 }

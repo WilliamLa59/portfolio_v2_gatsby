@@ -35,3 +35,11 @@
         width:auto;
     }
 }
+
+@media (max-width: 538px){
+    #contact{
+        .contact-content{
+            width: 100%;
+        }
+    }
+}

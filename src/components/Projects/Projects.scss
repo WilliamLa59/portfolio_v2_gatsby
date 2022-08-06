@@ -137,9 +137,18 @@
                 right: 0;
             }
         }
+        
     }
     
 }
 
-
-
+@media (max-width: 538px){
+    #projects{
+        .highlight-projects{
+            width: 95%;
+        }
+        .old-projects{
+            width: 100%;
+        }
+    }
+}

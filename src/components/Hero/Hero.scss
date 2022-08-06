@@ -47,3 +47,13 @@
         width:auto;
     }
 }
+
+@media (max-width: 538px){
+    #hero{
+        width:auto;
+        .hero-content{
+            width: 100%;
+        }
+    }
+}
+
