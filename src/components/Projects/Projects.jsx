@@ -4,12 +4,13 @@ import { faFolder, faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import data from "./projectdata.json"
 
-// import prepr from "../../assets/prepr.png";
-// import xenon from "../../assets/xenon.png";
-// import blogr from "../../assets/blogr.png";
-
 import '../../shared/Global.scss'
 import './Projects.scss'
+
+//How the projectdata.json file works:
+// first 3 projects are "highlight" projects
+// when on view: all the highlight projects will be displayed at the top along with their pictures
+//               and the rest of the projects will be displayed as cards with no picture
 
 export const Projects = () => {
 const [showMore, setShowMore] = useState(false);
