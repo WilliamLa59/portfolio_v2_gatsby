@@ -1,12 +1,22 @@
 [
     {
-        "role":"Volunteer Web Developer",
-        "company":"Toronto Metropolitan University",
+        "role":"Freelance Web Developer",
+        "company":"Mane To Tame",
+        "date":"October - November 2022",
+        "desc":[
+            "Customized Shopify theme to meet client specifications.", 
+            "Resolved link routing issue for product pages.",
+            "Optimized overall website and product page SEO for improved search engine visibility."
+        ] 
+    },
+    {
+        "role":"Full Stack Developer",
+        "company":"School of Occupational and Public Health",
         "date":"May - August 2022",
         "desc":[
-            "Collaborated with a research assistant to develop and evolve a React web application to collect brainwave data from a Neurosity Crown device.", 
-            "Translate the collected data from JSON to a downloadable CSV file to be viewable in Excel.",
-            "Accompanied by a back end that allowed for data to be saved to a remote MongoDB database using NodeJS"
+            "Collaborated with project lead and research assistant to develop and maintain a React web application to collect brainwave data from a Neurosity Crown device via REST API.", 
+            "Manipulated and organized collected JSON data for ease of readability, and implemented a feature to convert it to a downloadable CSV file.",
+            "Implemented a back-end using Node.js, enabling data to be saved to a remote MongoDB database."
         ] 
     },
     {

@@ -3,7 +3,7 @@
         "title": "Prepr Labs Homepage & Dashboard Clone",
         "tech": "React, Chakra UI, SASS",
         "desc": "A semi-functional clone of the Prepr Labs dashboard. Functionalities include: login with predefined credentials, dark and light mode, create dummy projects that can be seen on the dashboard",
-        "repo": "https://github.com/WilliamLa59/PreprLabChallenges/tree/main/frontend-challenge1",
+        "repo": "https://github.com/WilliamLa59/PreprLabChallenges",
         "live": "https://prepr-homepage-clone.herokuapp.com/",
         "pic": "/prepr.png"
     },
@@ -19,7 +19,7 @@
         "title":"Space Tourism Website",
         "tech": "React, CSS",
         "desc": "A multi-page react website to promote space tourism. A Frontend Mentor challange, where I needed to create the website as close to the provided wireframes as possible, along with all functionality and effects",
-        "repo": "https://github.com/WilliamLa59/WebMockups/tree/main/space-tourism-website-challange",
+        "repo": "https://github.com/WilliamLa59/space-tourism-website-challange",
         "live": "https://wl-space-tourism-challenge.herokuapp.com/technology",
         "pic": "/space.png"
     },
@@ -27,7 +27,7 @@
         "title": "Blogr Landing Page",
         "tech": "React, Chakra UI, SASS",
         "desc": "Another Frontend Mentor challenge.",
-        "repo": "https://github.com/WilliamLa59/WebMockups/tree/main/blogr-landing-page",
+        "repo": "https://github.com/WilliamLa59/LandingPages/tree/main/blogr-landing-page",
         "live": "",
         "pic": "/blogr.png"
     },
